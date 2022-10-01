@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 header{
     height: 65px;
-    background-color: #7b1fa2;
+    background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
     align-items: center;

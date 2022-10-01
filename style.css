@@ -21,7 +21,10 @@ header{
     justify-content: center;
     height: calc(100vh - 65px);
     background-color: #303030;
-    color: white;
+    color: white;    
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     /* padding-top: 10%; */
 }
 .caja-central{

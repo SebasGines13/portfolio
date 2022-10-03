@@ -160,11 +160,16 @@ form .form-control {
     padding-bottom: 15px;
 }
 
+#foto {
+    border-radius: 50%;
+}
+
 /* Portfolio */
 #portfolio {
     padding: 80px 0;
     text-align: center;
 }
+
 
 #portfolio p {
     width: 500px;
@@ -175,13 +180,69 @@ form .form-control {
 
 .portfolio-row {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.portfolio-row img {
-    width: 100%;
-    padding: 10px;
-    border-radius: 20px;
+.portfolio-row figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
 }
+
+.portfolio-row figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.portfolio-row figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.portfolio-row figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio-row figure:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.portfolio-row figure:hover > a img {
+    transform: scale(1.3);
+}
+
+.portfolio-row figure .capa h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.portfolio-row figure .capa p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
 
 /* About Me  */
 #about {

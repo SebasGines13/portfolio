@@ -106,7 +106,7 @@ form .form-control {
 
 /* mainheader */
 #mainheader{
-    background: radial-gradient(at 10% 10px, #E9A075, #fff, #fff);
+    background: radial-gradient(at 10% 10px, #E9A075, #eee, #eee);
     height: 100vh;
 }
 
@@ -200,7 +200,7 @@ form .form-control {
 }
 
 .portfolio-row figure .capa {
-    position: absolute;
+    position: absolute; 
     top: 0;
     width: 100%;
     height: 100%;
@@ -285,7 +285,10 @@ form .form-control {
 }
 
 .contact-row-img img {
-    padding: 120px;
+    padding: 50px;
+    max-height: 300px;
+    margin-left: 150px;
+
 }
 
 .contact-row-form {

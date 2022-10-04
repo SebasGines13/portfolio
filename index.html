@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
-    <title>Mi Portfolio | Welcome | Bienvenido</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Mi Portfolio | Bienvenido</title>
 </head>
 <body>
     <header id="mainheader">
@@ -34,7 +36,7 @@
                             experiencia en el área de los seguros. 
                             Mi prioridad y motor
                             es el constante aprendizaje. Entusiasta del
-                            mundo blockchain y todo el ecosistema crypto.
+                            mundo blockchain y todo el ecosistema cripto.
                         </p>
                         <a href="#portfolio" class="btn btn-round btn-dark">Mi Porfolio</a>
                     </div>
@@ -48,17 +50,17 @@
     <section id="portfolio">
         <div class="container">
             <h2>Mi Porfolio</h2>
-            <p>A continuación </p>
+            <p>A continuación una muestra de mis últimos proyectos. Algunos llevados a cabo en el marco de prácticas universitarias y otros de manera autodidacta. Haciendo click sobre ellos, se redireccionará al repositorio git relacionado... </p>
             <div class="portfolio-row">                
-                <figure>                    
-                    <img src="assets/portfolio-1.png" alt="">                                    
-                        <div class="capa">    
-                            <a href="https://github.com/SebasGines13/Labo2TP" target="_blank" rel="noopener noreferrer">                      
-                                <h3>Dungeon ++</h3>
-                                <p>Juego RPG creado en C++, utilizando la librería gráfica SFML</p>
-                            </a>
-                        </div>                    
-                </figure>                
+                <figure>
+                    <img src="assets/portfolio-4.png" alt="">
+                    <div class="capa">
+                        <a href="https://github.com/SebasGines13/cocacola" target="_blank" rel="noopener noreferrer">
+                            <h3>Coca-Cola</h3>
+                            <p>Landing Page implementada utilizando HTML, CSS y JS</p>
+                        </a>
+                    </div>
+                </figure>           
                 <figure>
                     <img src="assets/portfolio-2.png" alt="">
                     <div class="capa">
@@ -78,31 +80,37 @@
                     </div>
                 </figure>  
             </div>
-            <div class="portfolio-row">
+            <div class="portfolio-row">                 
                 <figure>
-                    <img src="assets/portfolio-4.png" alt="">
-                    <div class="capa">
-                        <a href="https://github.com/SebasGines13/cocacola" target="_blank" rel="noopener noreferrer">
-                            <h3>Coca-Cola</h3>
-                            <p>Landing Page implementada utilizando HTML, CSS y JS</p>
-                        </a>
-                    </div>
-                </figure>  
-                <figure>
-                    <a href="#"><img src="assets/portfolio-5.png" alt=""></a>
+                    <img src="assets/portfolio-5.png" alt="">
                     <div class="capa">
                         <a href="https://github.com/SebasGines13/Revenge" target="_blank" rel="noopener noreferrer">
                             <h3>Revenge</h3>
                             <p>Juego de dados en consola para 2 jugadores, desarrollado en C++</p>
                         </a>
                     </div>
-                </figure>  
+                </figure>
+                <figure>                    
+                    <img src="assets/portfolio-1.png" alt="">                                    
+                    <div class="capa">    
+                        <a href="https://github.com/SebasGines13/Labo2TP" target="_blank" rel="noopener noreferrer">                      
+                            <h3>Dungeon ++</h3>
+                            <p>Juego RPG creado en C++, utilizando la librería gráfica SFML</p>
+                        </a>
+                    </div>                    
+                </figure>    
             </div>
         </div>
     </section>
     <section id="about">
         <div class="container">
-            <h2>Acerca de mi</h2>
+            <h2>Acerca de mi...</h2>
+            <p>Trabajé durante 10 años en el ámbito de seguros, cubriendo diferentes puestos, desde administrativos, archivo, logísticos, ventas, hasta llegar al área IT.</p>
+            <p>Una vez allí, decidí comenzar a estudiar la licenciatura de "Analista de Sistemas" y tuve mis primeros contactos con la programación.</p>
+            <p>Posteriormente cambie de carrera a una tecnicatura de "Programación Universitaria", donde adquirí conocimientos relacionados a los fundamentos de programación.</p>
+        </div>
+        <div class="container">
+            <h2>Skills</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem quos nihil doloribus dolores minus.</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat ducimus porro ut laboriosam doloremque. Praesentium repellat autem repellendus perspiciatis consectetur.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt illum excepturi obcaecati soluta necessitatibus laborum, laboriosam modi omnis neque voluptates.</p>
@@ -111,7 +119,18 @@
     <section id="contact">
         <div class="container">
             <h2>Contáctame</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quod, reprehenderit ullam culpa enim voluptatem.</p>
+            <p>Puedes seguirme en mis redes o enviarme un mensaje directo...</p>
+            <div class="container redes">
+                <a href="https://www.linkedin.com/in/sebastian-gines/" target="_blank">
+                    <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" class="red-social floating" alt="">
+                </a>  
+                <a href="https://github.com/SebasGines13" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="red-social floating git" alt="">
+                </a>
+                <a href="https://instagram.com/sebas_gines/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" class="red-social floating instagram" alt="">
+                </a>
+            </div>
             <div class="contact-row">
                 <div class="contact-row-img">
                     <img src="assets/email.png" alt="">
@@ -138,9 +157,7 @@
         </div>
     </section>
     <footer id="mainfooter">
-        <div class="container">
-
-        </div>
+        <p>Última actualización: Octubre 2022</p>
     </footer>
     
 </body>

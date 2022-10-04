@@ -308,7 +308,22 @@ form .form-control {
     width: 100%;
 }
 
-.red-social{
+.lenguajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.icon-lenguaje {
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.red-social {
     height: 80px;
     border-radius: 10px;
     margin-left: 20px;
@@ -317,6 +332,7 @@ form .form-control {
 .redes{
     width: 50%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
     margin-bottom: 60px;

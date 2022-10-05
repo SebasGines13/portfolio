@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Mi Portfolio | Bienvenido</title>
 </head>
 <body>
@@ -38,7 +36,7 @@
                             es el constante aprendizaje. Entusiasta del
                             mundo blockchain y todo el ecosistema cripto.
                         </p>
-                        <a href="#portfolio" class="btn btn-round btn-dark">Mi Porfolio</a>
+                        <a href="#portfolio" class="btn btn-round btn-dark bounce-top">Mi Porfolio</a>
                     </div>
                     <div class="showcase-row-img">
                         <img id="foto" src="assets/FotoSEG.png" alt="">
@@ -49,7 +47,11 @@
     </header>
     <section id="portfolio">
         <div class="container">
-            <h2>Mi Porfolio</h2>
+            <div class="navegation">
+                <h2>Mi Porfolio</h2>
+                <a href="#mainheader" class="btn btn-round btn-dark"><img src="assets/arrow_up.png" alt="" class="arrow"></a>
+                <a href="#about" class="btn btn-round btn-dark"><img src="assets/arrow_down.png" alt="" class="arrow"></a>
+            </div>            
             <p>A continuación una muestra de mis últimos proyectos. Algunos llevados a cabo en el marco de prácticas universitarias y otros de manera autodidacta. Haciendo click sobre ellos, se redireccionará al repositorio git relacionado... </p>
             <div class="portfolio-row">                
                 <figure>
@@ -104,10 +106,15 @@
     </section>
     <section id="about">
         <div class="container">
-            <h2>Acerca de mi...</h2>
+            <div class="navegation">
+                <h2>Acerca de mi...</h2>
+                <a href="#portfolio" class="btn btn-round btn-dark"><img src="assets/arrow_up.png" alt="" class="arrow"></a>
+                <a href="#contact" class="btn btn-round btn-dark"><img src="assets/arrow_down.png" alt="" class="arrow"></a>
+            </div> 
             <p>Trabajé durante 10 años en el ámbito de seguros, cubriendo diferentes puestos, desde administrativos, archivo, logísticos, ventas, hasta llegar al área IT.</p>
             <p>Una vez allí, decidí comenzar a estudiar la licenciatura de "Analista de Sistemas" y tuve mis primeros contactos con la programación.</p>
             <p>Posteriormente cambie de carrera a una tecnicatura de "Programación Universitaria", donde adquirí conocimientos relacionados a los fundamentos de programación.</p>
+            <p>Actualmente y desde Agosto 2022 me encuentro trabajando de programador con un rol FullStack utilizando lenguajes Web.</p>
         </div>
         <div class="container">
             <h2>Skills</h2>
@@ -117,17 +124,21 @@
                 <img src="assets/js.png" class= "icon-lenguaje" alt="">
                 <img src="assets/SQL.png" class= "icon-lenguaje" alt="">
                 <img src="assets/Cpluplus.png" class= "icon-lenguaje" alt="">
-                <img src="assets/Csharp.png" class= "icon-lenguaje" alt="">
+            </div>
+            <div class="lenguajes">
+                <img src="assets/Csharp.png" class= "icon-lenguaje" alt="">                
+                <img src="assets/net.png" class= "icon-lenguaje" alt="">
                 <img src="assets/github.png" class= "icon-lenguaje" alt="">
-                <img src="assets/visualCode.png" class= "icon-lenguaje" alt="">
                 <img src="assets/visualStudio.png" class= "icon-lenguaje" alt="">
-                
             </div>
         </div>
     </section>
     <section id="contact">
         <div class="container">
-            <h2>Contáctame</h2>
+            <div class="navegation">                
+                <h2>Contáctame</h2>
+                <a href="#about" class="btn btn-round btn-dark"><img src="assets/arrow_up.png" alt="" class="arrow"></a>
+            </div>
             <p>Puedes seguirme en mis redes o enviarme un mensaje directo...</p>
             <div class="container redes">
                 <a href="https://www.linkedin.com/in/sebastian-gines/" target="_blank">

@@ -12,18 +12,18 @@
 html,
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #4d4d4d
+    color: #4d4d4d;    
+    font-weight: bold;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     width: 100%;
-    padding-left: 50px;
 }
 
 h4 {
@@ -31,9 +31,9 @@ h4 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 10px 0;
-    line-height: 1.7em;
+    line-height: 1.2em;
     font-weight: 300;
 }
 
@@ -54,7 +54,8 @@ a {
 }
 
 .large {
-    font-size: 1.25rem;
+    font-size: 1.2rem;       
+    font-weight: bold;
 }
 
 .txt-orange {
@@ -63,6 +64,14 @@ a {
 
 .display-1 {
     font-size: 4rem;
+}
+
+.text-shadow-05 {
+    text-shadow: 0.5px 0 0 #000, -0.5px 0 0 #000, 0 0.5px 0 #000, 0 -0.5px 0 #000, 0.5px 0.5px #000, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000;
+}
+
+.text-shadow-1 {
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 .btn {
@@ -322,7 +331,7 @@ form .form-control {
 
 
 #portfolio p {
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 50px;
@@ -420,7 +429,7 @@ form .form-control {
 }
 
 #contact p {
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 50px;
